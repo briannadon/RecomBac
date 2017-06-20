@@ -1,0 +1,435 @@
+LOCUS       AE016853                8608 bp    DNA     linear   BCT 03-MAR-2015
+DEFINITION  Pseudomonas syringae pv. tomato str. DC3000, complete genome.
+ACCESSION   AE016853 REGION: 5473546..5482153
+VERSION     AE016853.1
+DBLINK      BioProject: PRJNA359
+            BioSample: SAMN02604017
+KEYWORDS    .
+SOURCE      [Pseudomonas syringae] pv. tomato str. DC3000
+  ORGANISM  [Pseudomonas syringae] pv. tomato str. DC3000
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+            Pseudomonadaceae; Pseudomonas.
+REFERENCE   1  (bases 1 to 8608)
+  AUTHORS   Buell,C.R., Joardar,V., Lindeberg,M., Selengut,J., Paulsen,I.T.,
+            Gwinn,M.L., Dodson,R.J., Deboy,R.T., Durkin,A.S., Kolonay,J.F.,
+            Madupu,R., Daugherty,S., Brinkac,L., Beanan,M.J., Haft,D.H.,
+            Nelson,W.C., Davidsen,T., Zafar,N., Zhou,L., Liu,J., Yuan,Q.,
+            Khouri,H., Fedorova,N., Tran,B., Russell,D., Berry,K.,
+            Utterback,T., Van Aken,S.E., Feldblyum,T.V., D'Ascenzo,M.,
+            Deng,W.L., Ramos,A.R., Alfano,J.R., Cartinhour,S., Chatterjee,A.K.,
+            Delaney,T.P., Lazarowitz,S.G., Martin,G.B., Schneider,D.J.,
+            Tang,X., Bender,C.L., White,O., Fraser,C.M. and Collmer,A.
+  TITLE     The complete genome sequence of the Arabidopsis and tomato pathogen
+            Pseudomonas syringae pv. tomato DC3000
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 100 (18), 10181-10186 (2003)
+   PUBMED   12928499
+REFERENCE   2  (bases 1 to 8608)
+  AUTHORS   Buell,R., Joardar,V., Khouri,H., Fedorova,N., Tran,B., Russell,D.,
+            Berry,K., Utterback,T., Van Aken,S., Feldblyum,T., Gwinn,M.,
+            Dodson,R., DeBoy,R., Durkin,A., Kolonay,J., Madupu,R.,
+            Daugherty,S., Brinkac,L., Beanan,M., Haft,D., Selengut,J.,
+            Nelson,W., Davidsen,T., White,O., Fraser,C. and Collmer,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAR-2003) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA
+REFERENCE   3  (bases 1 to 8608)
+  AUTHORS   Lindeberg,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-NOV-2006) Dept of Plant Pathology, Plant Science
+            Building, Cornell University, Ithaca, NY 14853, USA
+  REMARK    Amino acid sequence updated by submitter
+REFERENCE   4  (bases 1 to 8608)
+  AUTHORS   Lindeberg,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-DEC-2006) Dept of Plant Pathology, Plant Science
+            Building, Cornell University, Ithaca, NY 14853, USA
+  REMARK    Amino acid sequence updated by submitter
+REFERENCE   5  (bases 1 to 8608)
+  AUTHORS   Lindeberg,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-SEP-2007) Dept of Plant Pathology, Plant Science
+            Building, Cornell University, Ithaca, NY 14853, USA
+  REMARK    Amino acid sequence update by submitter
+REFERENCE   6  (bases 1 to 8608)
+  AUTHORS   Lindeberg,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-NOV-2007) Dept of Plant Pathology, Plant Science
+            Building, Cornell University, Ithaca, NY 14853, USA
+  REMARK    Amino acid sequence update by submitter
+REFERENCE   7  (bases 1 to 8608)
+  AUTHORS   Lindeberg,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-MAR-2008) Dept of Plant Pathology, Plant Science
+            Building, Cornell University, Ithaca, NY 14853, USA
+  REMARK    Amino acid sequence update by submitter
+REFERENCE   8  (bases 1 to 8608)
+  AUTHORS   Lindeberg,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-DEC-2008) Dept of Plant Pathology, Plant Science
+            Building, Cornell University, Ithaca, NY 14853, USA
+  REMARK    Amino acid sequence update by submitter
+REFERENCE   9  (bases 1 to 8608)
+  AUTHORS   Lindeberg,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-MAR-2010) Dept of Plant Pathology, Plant Science
+            Building, Cornell University, Ithaca, NY 14853, USA
+  REMARK    Protein update by submitter
+COMMENT     On or before Mar 3, 2005 this sequence version replaced
+            gi:28850477, gi:28850752, gi:28851051, gi:28851340, gi:28851610,
+            gi:28851889, gi:28852169, gi:28852460, gi:28852711, gi:28852990,
+            gi:28853240, gi:28853483, gi:28853733, gi:28854015, gi:28854265,
+            gi:28854552, gi:28854817, gi:28855076, gi:28855325, gi:28855576,
+            gi:28855841.
+            This represents the most recent version of the continually updated
+            genome annotations for Pseudomonas syringae pv. tomato strain
+            DC3000 by the Pseudomonas-Plant Interaction project. See
+            http://www.pseudomonas-syringae.org for the latest updates and
+            expanded annotations. We welcome submission through
+            www.pseudomonas-syringae.org of any proposed changes. Note that
+            locus tags with values greater than PSPTO_5615 represent features
+            added subsequent to the initial annotation (06-MAR-2003) and are
+            not in sequential order relative to other locus tags.
+FEATURES             Location/Qualifiers
+     source          1..8608
+                     /organism="[Pseudomonas syringae] pv. tomato str. DC3000"
+                     /mol_type="genomic DNA"
+                     /strain="DC3000"
+                     /db_xref="taxon:223283"
+                     /note="pathovar: tomato"
+     gene            complement(<1..1471)
+                     /locus_tag="PSPTO_4833"
+                     /old_locus_tag="PSPTO4833"
+     CDS             complement(<1..1471)
+                     /locus_tag="PSPTO_4833"
+                     /old_locus_tag="PSPTO4833"
+                     /experiment="RNA sequencing"
+                     /note="see PMID:20190049 for expression data; identified
+                     by match to TIGR protein family HMM TIGR01386"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="sensory box histidine kinase"
+                     /protein_id="AAO58262.1"
+                     /translation="MPVSSEPDPIGADLYLLLDEEGRIQSISPQLLARLGMAAPTFAA
+                     LRLMNLLLPNSALVVEGVPHDWLGHMLDLDFKSADTHTLHARGWVQAHGKGWLLQLLD
+                     ISDLMEEANAARSRQQCLRFAGQMAERVRVCNVERLTAVAAEQLEELAQLWRIPCVAL
+                     VLPEVSGVGWRVYCQYSAHTAPELWQVGQRLGTALDRFDANITHQLRFGSGVDQGPLQ
+                     SVFANADGFLIPHSRDNAPKAWLMFGFYDPRQQAPDLGEREWLNLCSALAGPVLFRLS
+                     EQHNRHHVERLAVLQGLLGTGWWELMPASDEVLLAPQLARSLRLADRVESLSRQDWLA
+                     MIHPADRQELSSRLAQLRDKGTPLLLCVRLAQSDPAQETLWFRIQGQALISGQVKRVL
+                     GFMLDVSDIKNQETEAAAAHARLDNLIASSPAVIYVQRYDQGNLEPTFFSDSLTPLLG
+                     WTLADCIEGQLAEYIHPEDRDIWFERNRQLLREGLVSRRYRLRDKGGNYHWLLDEARL
+                     LRDDLGMPVEAVGLWLDVTEATLAAEQVRQSEERYRILVEDSPAMICRYSPDLVLSFG
+                     NRPLANYMECTPEQLTGINLGDWLSDEQREAFIRRIGLLTPEAPLSTEEICIELPGRE
+                     YAWWVWADRGIFDEHGTLVEVQAVGRDNTDVRRSRMQLNQSAKMATLGEMSTGLAHEI
+                     NQPLNVMRMAVVNVLKRLSRGDVDIEYLTEKLTRIDTQVQRAARVVDHMRVFGRRSEV
+                     EEQLFDPAQAVEGTLSMLAEGMKGKGVQIRVGSMIEAVRVRGHVDQLEQVLINLMVNA
+                     RDALLSRREKDREFEPWISVEAERDENIIRLVVQDNGGGIDPRLLERIFEPFFTTKPV
+                     GVGTGLGLSVSYGIVDQMGGQLSVSNVGEGARFRIELPIFNEG"
+     gene            complement(1530..1985)
+                     /locus_tag="PSPTO_4834"
+                     /old_locus_tag="PSPTO4834"
+     CDS             complement(1530..1985)
+                     /locus_tag="PSPTO_4834"
+                     /old_locus_tag="PSPTO4834"
+                     /experiment="RNA sequencing"
+                     /note="see PMID:20190049 for expression data; identified
+                     by Glimmer"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved protein of unknown function"
+                     /protein_id="AAO58263.1"
+                     /translation="MKTRAQQTFPDKQQGAAAIEFAAVFVVFFAVFYGVVSYSLPLLM
+                     MQSFNAAASEAVRRSVALSPTVTNYNSLLKSQAQSVVMSQLSWMPPALGFSASYTNVT
+                     YTAGVLTVTIQYPKTRLTQVLPLLTLPGIGEIPRLPTNLTAQASLQLVP"
+     gene            2058..2531
+                     /locus_tag="PSPTO_4835"
+                     /old_locus_tag="PSPTO4835"
+     CDS             2058..2531
+                     /locus_tag="PSPTO_4835"
+                     /old_locus_tag="PSPTO4835"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved domain protein"
+                     /protein_id="AAO58264.1"
+                     /translation="MMKLFFLLVWFAICAEQDARRKEILNGLTLGAAALAAGYLAVTG
+                     LTWLGSPPLEGALALVLALALTLPGYTLGRLGAADVKLMTALALASNTAYLLCTFIGA
+                     GVAMLAWALIGKRVWPLIHQQVTQRYKHMNPGTPDKYPFSPFLLIGLLLTVCVIH"
+     gene            2689..3471
+                     /locus_tag="PSPTO_4836"
+                     /old_locus_tag="PSPTO4836"
+     CDS             2689..3471
+                     /locus_tag="PSPTO_4836"
+                     /old_locus_tag="PSPTO4836"
+                     /experiment="RNA sequencing"
+                     /note="see PMID:20190049 for expression data; identified
+                     by match to TIGR protein family HMM TIGR01387"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA binding response regulator, LuxR family"
+                     /protein_id="AAO58265.1"
+                     /translation="MNNYPVPKILVVDDQPLIVEELGEFLEGCGYACVRCHSSLEAIE
+                     HFANDSAIGIVLCDLEMPGMNGIEMVEAMKMAGGKTHLFEAIMLTGQAEKKDVIKALR
+                     AGIADYYQKPVNLDELLEGVQSQVEALAERQKNRQQLGLLNEKLQFLAASIDDLYQNL
+                     DSAQNTPQAGRKPRLNAENDSQMPVALAKLSRRQLDVARLVSTGLTNYQIACELGITE
+                     NTVKLYVSQVLRLTHMHNRTQLALAFSPGKSGERQRLIESQG"
+     gene            complement(3478..5133)
+                     /locus_tag="PSPTO_4837"
+                     /old_locus_tag="PSPTO4837"
+     CDS             complement(3478..5133)
+                     /locus_tag="PSPTO_4837"
+                     /old_locus_tag="PSPTO4837"
+                     /experiment="RNA sequencing"
+                     /note="see PMID:20190049 for expression data"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="response regulator"
+                     /protein_id="AAO58266.1"
+                     /translation="MTELEDPSRDRLKHHFAQRVIHQARQILETWQRLQKAQWSVADM
+                     AELKEATLRLMRFAERFEQAEHVALAHEINQSLDAVDANRGRLNSHVITELNRLMQRL
+                     SRTGLRHGDRLEQTSLPPLRKPVYVVLQDHERAERLAKQLEFFGLSALSLHSVADFQR
+                     AMAQRHPAAIVMDVDFSGPGMGLELASQAQEGLEQKLPLLFFSVHETDTPTRLAAVRA
+                     GGEEFLTGALEASSLLEKIEVLTCVAQYEPYKVLIIDDSRAQAMHTERVLNAAGIVTR
+                     VLIDPIQAMSELADFQPDLIILDMYMPGCTGTELAKVIRHNDRYVSVPIIYLSAEDDQ
+                     DKQLDAMSEGGDDFLTKPIKPRHLITTVRNRAARARNLKSRMVRDSLTGLYNHTHILQ
+                     LLEDCSFRSRREGKPLCFAMLDIDHFKRVNDSHGHPMGDRVIKSLALFLKQRLRKTDF
+                     IGRYGGEEFAIVMPDTDIHNAHKVLDEIRHRFAEIHYPAQPADLFCTFSAGVVCLGAD
+                     DDSLSLASQADNALYRAKHAGRNQVHSALVQAPYHIVLAEIEA"
+     gene            5349..5498
+                     /locus_tag="PSPTO_4838"
+                     /old_locus_tag="PSPTO4838"
+     CDS             5349..5498
+                     /locus_tag="PSPTO_4838"
+                     /old_locus_tag="PSPTO4838"
+                     /experiment="RNA sequencing"
+                     /note="see PMID:20190049 for expression data; identified
+                     by Glimmer"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="protein of unknown function"
+                     /protein_id="AAO58267.1"
+                     /translation="MRLEANRLQLPAYRLKLPRKVAVERRVAFNSRSKGPYHAGLEKP
+                     RRQRG"
+     gene            5461..6540
+                     /locus_tag="PSPTO_4839"
+                     /old_locus_tag="PSPTO4839"
+     CDS             5461..6540
+                     /locus_tag="PSPTO_4839"
+                     /old_locus_tag="PSPTO4839"
+                     /experiment="RNA sequencing"
+                     /note="see PMID:20190049 for expression data; identified
+                     by Glimmer"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved protein of unknown function"
+                     /protein_id="AAO58268.1"
+                     /translation="MLDWKNRAGSAGERTADTASVKRRGYLGNLFYSRALGALILIYL
+                     LVALVVGWYWSKEPALFPVQQNAQAAAEREGKQIVIGYTTVETLKTVAGTLLDKRGGY
+                     LSNDRMPPGLWLDNIPSWEYGVLVQVRDLSRALRKDFARSQSQSAEDGDLARAEPLFN
+                     FNNRSWILPSSESQYAEGIKSLSRYQARLSDPNQKGALFYARADNLNNWLGDVGTRLG
+                     SLSQRLSASVGRVKLNSTLKTEAAVSVKPGEVPQVDEEIVETPWLEVDNVFYEARGQA
+                     WALSHLLRAIEVDFADVLAKKNATVSVRQIIRELEASQEPLWSPMILNGSPFGVFANH
+                     SLVMANYISRANAAVIDLRQLLNQG"
+     gene            6540..7082
+                     /locus_tag="PSPTO_4840"
+                     /old_locus_tag="PSPTO4840"
+     CDS             6540..7082
+                     /locus_tag="PSPTO_4840"
+                     /old_locus_tag="PSPTO4840"
+                     /experiment="RNA sequencing"
+                     /note="see PMID:20190049 for expression data"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mutT/nudix family protein"
+                     /protein_id="AAO58269.1"
+                     /translation="MDISPNEAAHRAASDAEHIAWVDEQDCLLGSRVRADLRERGLIG
+                     RGTYILLFNSAGDLCVHRRTLSKAIYPGYWDVAAGGMVQAEESYAESAARELEEELGV
+                     SGVPLQAHEQFFFDQPGNRLWCAVFSAVWDGPLKLQPEEVLEARFMPIDEVLHQAEHT
+                     PYCPDSLAALKRYLNQSVSV"
+     gene            7292..7663
+                     /locus_tag="PSPTO_4841"
+                     /old_locus_tag="PSPTO4841"
+     CDS             7292..7663
+                     /locus_tag="PSPTO_4841"
+                     /old_locus_tag="PSPTO4841"
+                     /experiment="RNA sequencing"
+                     /note="see PMID:20190049 for expression data"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="translation initiation factor SUI1, putative"
+                     /protein_id="AAO58270.1"
+                     /translation="MAKKAASLAALGGLVFSTDAGRHCPDCRQPVAECTCKQTAIPEG
+                     DGVARVRRESKGRGGKTVTTISGVPLAEEPLKELAKALKQRCGTGGSLKDDVIEIQGD
+                     HVELLIAELVKKGFKAKKSGG"
+     gene            7752..>8608
+                     /gene="speA"
+                     /locus_tag="PSPTO_4842"
+                     /old_locus_tag="PSPTO4842"
+     CDS             7752..>8608
+                     /gene="speA"
+                     /locus_tag="PSPTO_4842"
+                     /old_locus_tag="PSPTO4842"
+                     /experiment="RNA sequencing"
+                     /note="see PMID:20190049 for expression data"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="biosynthetic arginine decarboxylase"
+                     /protein_id="AAO58271.1"
+                     /translation="MSVRRTRKDDGSQWTVADSRSVYGIRHWGAGYFAINEAGRVEVR
+                     PNGPDSSPIDLYEQVDNLRKSGLSLPLLVRFPDILQDRVRQLTGAFDSNIARLEYQSQ
+                     YTALYPIKVNQQEAVVENIIATQNVSIGLEAGSKPELMAVLALAPKGGTIVCNGYKDR
+                     EFIRLALMGQKLGHNVFIVIEKESEVELVIEEAAELKVAPQVGLRVRLSSLASSKWAD
+                     TGGEKSKFGLSAAQLLSVVERFRKAGLDQGIRLLHFHMGSQIANLADYQHGFKEAIRY
+                     YGELRKLGLPVDYIDVGGGLGVDYDGTHSRNASSINYDMDDYAGVVVGMLKEFCDAQS
+                     LPHPHIFSESGRSLTAHHAMLVVQVTDVEKHNDEVPKIADKESLPETVQWLVDLLGPT
+                     DIEMVTETYWRATHYMSDIATQYADGKISLAEKALGEQCYFAVCRRLYNSLKARQRSH
+                     RQVLDELNDKLADKYICNFSVFQSLPDTWAIGQVLPILPLHRLDEEPVRRAVLQDLTC
+                     DSDGKIKQYVDEQSIETSMPVHSLNEGEDYLLGIFLVGAYQEILGDMHNLFGDTDSVN
+                     IYQNPDGSVYHAGIETHDTIEDMLRYVHLSPEELMTHYRDKVASAKITPRERTYFLDA
+                     LRLGLTRSSYLSS"
+ORIGIN      
+        1 ggtatcgccg gctgaccaag ccttcacgca gcaactgccg attgcgctcg aaccagatgt
+       61 cgcggtcttc ggggtggatg tattcagcca gttgcccctc gatgcagtcg gccagcgtcc
+      121 agcccagcaa aggcgtgagg ctgtcactga aaaaagtcgg ctccaggttg ccttgatcgt
+      181 aacgctgcac gtagatcacc gccggtgagc tggcaatcag gttatccagc cgggcatggg
+      241 cggcagccgc ctcggtttcc tggttcttga tatcgctgac atcgagcatg aaacccagca
+      301 cgcgcttcac ctgcccgctg atcagcgcct ggccctgaat acgaaaccaa agggtttcct
+      361 gcgcggggtc actctgcgcc agacgcacgc agagcagcaa tggcgtgcct ttgtcacgca
+      421 actgggcgag acggctggaa agctcctggc ggtctgccgg atgaatcatc gccagccagt
+      481 cctgacgtga caggctttcg accctgtcag ccagacgcag actgcgcgcc agttgcgggg
+      541 ccagcaggac ctcgtcgctg gcgggcatca gctcccacca cccggtaccc agcagccctt
+      601 gaagcacggc cagccgctcg acgtggtgac ggttgtgctg ttcggacaag cgaaacagca
+      661 ccggacctgc cagcgccgag cagaggttca gccactcacg ctcaccgagg tcgggtgcct
+      721 gctgtcgcgg gtcatagaag ccgaacatca gccaggcttt gggagcgttg tcacgactgt
+      781 gcgggatcag aaaaccgtca gcgttagcga acacactctg caacggccct tgatcgacgc
+      841 cgctgccaaa cctcaattga tgggtgatat tggcatcgaa gcggtccagc gccgtcccca
+      901 gtcgctgtcc gacctgccac agttccggtg ccgtatgcgc gctgtactgg cagtagacac
+      961 gccagccgac accgctaacc tccggcaaca ccagcgccac acaaggaata cgccacagct
+     1021 gcgccagctc ttccagctgt tcggccgcca ccgccgtcag ccgttccacg ttgcacacac
+     1081 gcacacgctc ggccatctgc ccggcgaacc gcaagcactg ctggcgactg cgagcggcgt
+     1141 tggcttcttc catcaggtcg ctgatatcca gcaattgcag cagccagccc ttgccgtgcg
+     1201 cctggaccca gccgcgggcg tgcaaggtgt gcgtgtcggc gctcttgaag tccagatcga
+     1261 gcatgtgccc cagccagtca tgcggcaccc cttcaacgac cagcgcgcta ttgggcagca
+     1321 gcaggttcat cagccgcaga gcagcgaacg tcggcgctgc catgcccagt cgcgcaagca
+     1381 attgcgggct gatgctctgt atccgcccct cttcgtcaag cagtagataa aggtcggcgc
+     1441 cgatcggatc gggctcgctg gacacaggca aggtctgcgg cgaagacggc gcttcaccgc
+     1501 gtccgagcca ccggctcagg cgattctttt catgggacaa gttgcaggct cgcttgggcg
+     1561 gtcagattgg tcggcaaacg cgggatctca ccgatgccgg gcagggtcag cagcggcaat
+     1621 acctgggtca gtcgggtctt gggatactgg atggtgacgg tcagcacacc ggcggtgtaa
+     1681 gtcacgttgg tataacttgc actgaagccc aacgcaggcg gcatccatga caactggctc
+     1741 atcacgacac tctgtgcctg gcttttcaat agactgttat aatttgtaac tgtcggactg
+     1801 agggcgacac ttcggcgcac ggcttcactg gccgccgcat tgaatgactg catcatcagc
+     1861 aacggcaggc tataactcac cacgccgtag aacaccgcaa agaacaccac gaatacagca
+     1921 gcgaactcaa tagcagcggc accctgttgc ttatcgggaa aggtctgctg cgcacgtgtt
+     1981 ttcatttcaa cgtctaccct gacatctacg acctttgaac agcataggtt ctttacggaa
+     2041 aacgggatgt tttttgcgtg atgaaattat tttttctgct ggtctggttt gcaatttgcg
+     2101 ccgaacagga tgcgcgccgc aaggaaattc tcaacgggct gacactgggc gccgcagcgc
+     2161 tggctgccgg ctatctggcc gttaccggcc tgacctggct gggctcgccg ccgcttgaag
+     2221 gcgccctggc gctggtgctg gccttggccc tgacactgcc cggttacacg ctgggcaggc
+     2281 tgggcgctgc agacgtcaag ttgatgacgg cattggcgct tgcatcaaac actgcctatt
+     2341 tgttatgcac gtttattggc gcaggcgtcg cgatgctggc atgggccttg ataggtaaaa
+     2401 gagtctggcc tcttatacac caacaggtta cgcagcgtta taaacacatg aatcccggga
+     2461 cgccagacaa atatcctttc tcaccgttct tattgatcgg cctgctgctg acagtgtgtg
+     2521 ttatccatta gtcgaatgaa aatataatgc tatgtacata gtcggaaagt acgactacgg
+     2581 ttgagacatc gcgctcgcgt aacgtcgcgt atgcaaacag aacttgatca tgttttgctg
+     2641 aatggataaa ggtcccggct tgccggcctt aacagcatgg agtcgcatgt gaataactac
+     2701 ccggtcccaa aaattctggt ggtcgatgac caacctttga tcgttgaaga actcggcgag
+     2761 tttctggaag gctgcggcta tgcgtgtgtg cgctgtcatt caagccttga agccatcgag
+     2821 cactttgcca acgacagcgc catcggcatc gtgctgtgcg atctggaaat gcccggcatg
+     2881 aatggcatcg aaatggtcga agccatgaag atggcgggcg gcaagacgca tttgttcgaa
+     2941 gccatcatgc tgaccgggca agccgagaaa aaggatgtca tcaaggcgct gcgggccggc
+     3001 attgccgatt actaccagaa gccggtcaat cttgatgagc tgctggaagg cgttcagtcg
+     3061 caggtagaag cgctggccga gcgccagaaa aaccgccagc aattgggcct gctgaacgag
+     3121 aaactccagt ttctggcggc gtccattgac gatctttatc agaatctgga cagcgctcag
+     3181 aacacgccgc aggccgggcg caaaccacgg ctcaatgctg aaaatgactc acagatgccg
+     3241 gtggctctgg ccaaactgtc acgtcgccag ctcgatgtgg cgcggctggt cagtaccggg
+     3301 ttgaccaatt atcagattgc ctgcgaactg ggcattaccg aaaacaccgt aaaactttac
+     3361 gtgtcgcagg ttctgcgcct gacccatatg cataaccgca ctcaactggc gctggcattt
+     3421 tcacccggta aaagcgggga gcggcagcgg cttatcgaaa gccaggggta agactgctca
+     3481 ggcctcgatt tctgccagca cgatgtgata aggcgcttgc accagcgccg agtgcacctg
+     3541 attgcgccct gcatgcttgg cgcgatacag cgcgttgtcg gcctgggagg caaggctcag
+     3601 gctgtcatca tctgcaccga ggcaaaccac gccggcactg aaggtgcaga acaggtccgc
+     3661 aggctgcgcc gggtagtgaa tctccgcaaa gcggtgacgg atttcatcga gcaccttgtg
+     3721 ggcgttatga atgtcggtgt cgggcatgac aatggcgaac tcttcaccgc cgtaacgacc
+     3781 gatgaaatcg gttttacgca gtcgctgctt gaggaacagt gccaggctct tgatgacccg
+     3841 atcccccatt ggatggccgt ggctgtcgtt gacccgtttg aaatggtcga tatcgagcat
+     3901 ggcaaaacac agcggcttgc cttcacgtcg cgaacgaaaa ctgcaatctt ccagcagttg
+     3961 caggatgtgc gtgtggttgt agagcccggt caggctgtca cgaaccatgc gcgacttgag
+     4021 gttacgagcc ctggcggcgc gattgcgcac cgtggtgatc aagtggcgcg gcttgatcgg
+     4081 cttggtcagg aagtcatcgc cgccttcgct catggcatcg agctgcttgt cctggtcatc
+     4141 ctcggccgac aggtaaatga tcggcacact aacgtaacgg tcgttgtggc gaatgacctt
+     4201 ggccagttcg gtgccggtac agccgggcat gtacatgtcg agaatgatca ggtccggctg
+     4261 aaaatcggcg agttcggaca tcgcctgaat agggtcaatg agcacccgcg tcacgatccc
+     4321 ggcggcattc agcacgcgtt cggtgtgcat agcctgggca cgggaatcat cgatgatcag
+     4381 cactttataa ggctcgtatt gcgccacgca ggtcagcact tcgatttttt ccagcaggct
+     4441 cgatgcttcc agcgcgccgg tcagaaactc ctcaccaccg gcgcgcaccg ctgccagccg
+     4501 ggtcggcgtg tcggtttcat gcacactgaa aaacaacagc ggcagctttt gctccaaccc
+     4561 ttcctgcgcc tgcgaggcca gctccaagcc catgccagga ccgctgaaat cgacgtccat
+     4621 gacaatagcc gccgggtgcc gctgcgccat ggcacgctgg aaatcggcaa cgctgtgcag
+     4681 tgaaagggcc gacaaaccga aaaactccag ctgtttggcc agacgctcgg cccgctcatg
+     4741 gtcctgaagc accacgtaaa ccggcttgcg cagcggcggc agcgacgttt gctcgagccg
+     4801 gtcgccatgc cgcagcccgg tgcgcgacag gcgctgcatg aggcgattga gttctgtgat
+     4861 gacgtggctg ttgagccggc cgcgattggc gtcaaccgcg tccagtgact gattgatctc
+     4921 gtgagccagg gccacatgct cagcttgctc gaagcgctcg gcaaaacgca tcagacgcag
+     4981 cgtggcctct ttgagctcgg ccatgtcggc aaccgaccac tgggcttttt gcaggcgttg
+     5041 ccacgtctcc agaatctgcc gagcctgatg aatgaccctt tgggcaaagt gatgcttgag
+     5101 acgatcgcgg ctaggatctt cgagctcggt catattcaga ctactgttga tttactgagc
+     5161 gaaatggctg atggcgctat gctagcacct cccatacgac agaagagcgc cgcaagtcac
+     5221 ttatttgaca acattttgat ggcgcatggc cactactcaa aattaatcga ctgatagata
+     5281 atagctataa gcttttggct gcaagctgca agctgcaaac tagaagcggt cggcttgagg
+     5341 cttgaggctt gaggcttgaa gctaaccgct tgcagcttcc agcttatcgc ttgaaactgc
+     5401 ccaggaaggt tgcggtcgaa cgccgtgtag cattcaactc aagatcgaaa ggaccctacc
+     5461 atgctggatt ggaaaaaccg cgcaggcagc gcgggtgagc gcaccgctga caccgcatcg
+     5521 gtcaagcgcc ggggttacct gggtaacctg ttctatagcc gcgctctggg cgccttgatc
+     5581 ttgatttacc tgctggtggc gctcgttgtc ggctggtact ggagcaaaga acccgcactg
+     5641 ttcccggtac aacaaaacgc tcaagccgcc gcagaacgcg aaggcaagca gatagtgatc
+     5701 ggctacacca cggtcgaaac cctgaaaacc gtggccggca ctttgctcga caagcgtggc
+     5761 ggctacctct ccaacgaccg catgccgcct ggcctgtggc tggacaacat tccgagctgg
+     5821 gaatacggcg tgctggttca ggtgcgtgac ctgagccgtg cgctgcgcaa ggacttcgcc
+     5881 cgctcgcagt cgcaatctgc cgaagatggc gatctggcgc gtgccgagcc gctgttcaac
+     5941 ttcaacaatc gcagctggat cctgccctcc agtgaatcgc agtatgccga gggcattaaa
+     6001 tctctgagcc gctaccaggc acgactgtcc gatccgaacc agaaaggcgc actgttttac
+     6061 gcccgcgccg acaacctcaa caactggctg ggtgatgtcg gaacgcgcct gggttcgctg
+     6121 tcgcagcgcc tctcggccag tgtcggcagg gtcaaactca acagcacgct gaaaaccgaa
+     6181 gccgctgttt cggtcaagcc tggcgaagta ccgcaggttg acgaggaaat cgttgaaacc
+     6241 ccatggctgg aagtggacaa cgtcttctat gaagcgcgcg gtcaggcctg ggcgctgtcg
+     6301 cacttgctgc gcgccatcga agtggatttt gccgatgtgc tggccaaaaa gaacgcgaca
+     6361 gtgagtgtgc gtcagatcat tcgtgaactg gaggcctctc aggagccgct gtggagcccg
+     6421 atgattctca acggcagccc gttcggtgtg ttcgccaacc actcgctggt catggccaac
+     6481 tacatctcac gcgccaatgc tgcggtgatc gaccttcgcc agttgctgaa tcagggctga
+     6541 tggatatctc cccgaacgag gccgcgcacc gcgccgcctc cgacgccgag cacattgcct
+     6601 gggtcgacga gcaggattgt ctgctcggtt cacgggtacg cgccgatttg cgtgaacgcg
+     6661 ggctgatcgg ccgcggcacc tatattctgc tgttcaacag tgccggggac ctctgtgtgc
+     6721 atcggcgcac gctgagcaag gcgatctacc caggttactg ggatgtggcg gctggcggga
+     6781 tggttcaggc ggaggaaagc tacgccgagt ctgcggcccg tgagcttgaa gaagagctgg
+     6841 gcgtcagtgg cgtgccgttg caggcgcacg aacagttttt cttcgatcag cccggcaacc
+     6901 gcctgtggtg tgcagtgttt tcggctgtgt gggacgggcc gctgaaactg caacctgagg
+     6961 aggtactgga agcgcgcttc atgcccatcg acgaagtgct gcatcaggca gaacacacgc
+     7021 cctactgccc ggactcgctg gctgcgctga aacgctacct gaatcagtct gtttctgttt
+     7081 agcgatgaaa gtgttcggta aagcgactgt tcagtaaatt ggcgcatcga gcctcttagc
+     7141 attcgggcta tttgccgtta cactgcgcga cctttttcaa actggaccgg ccctgccctt
+     7201 ccagtagcgc tgcccctgcc agagtggggc ttcgcggtcg atggctcgtg tgagcccgac
+     7261 ccatcttcag tcctcaacaa gaggatgttc cgtggctaaa aaagccgctt ccctcgccgc
+     7321 cctgggtggc ctggtgtttt caaccgacgc agggcgccac tgccccgatt gtcgtcagcc
+     7381 tgttgccgaa tgcacctgca aacagactgc catccccgaa ggcgacggcg ttgctcgggt
+     7441 acgtcgcgaa agcaaaggcc gtggcggcaa gacagtcacc accatcagcg gcgtgccgct
+     7501 ggccgaagag ccgctcaaag agctggccaa ggccctcaag caacgctgtg gcaccggcgg
+     7561 atcgctcaag gacgatgtga tcgagatcca gggcgatcat gtcgaactgc tgatcgcaga
+     7621 actcgtcaag aaaggcttca aggccaaaaa gtccggcggc tgaacccgcg actcaaatcg
+     7681 tcatttcaac tcattacact gcgcccagcc ggctactggc tggcgctatg acttctttat
+     7741 aggggacctc gatgtccgta cgacgcacac gcaaagacga tggcagccaa tggacagttg
+     7801 cggacagccg cagcgtttat ggcattcgcc attggggcgc gggttatttt gcaatcaacg
+     7861 aggcgggccg cgttgaagtt cgccccaacg ggccggacag ctcgcccatc gatctctatg
+     7921 agcaagtcga caacctgcgc aaaagtggcc tgtcgctgcc gttgctggtg cgcttccccg
+     7981 atattctgca ggaccgcgtg cgtcaactga ccggcgcatt cgacagcaac atcgcgcgcc
+     8041 tggaatacca gagccaatac accgcgctgt acccgatcaa ggtcaaccag caggaagcgg
+     8101 tggtggaaaa catcatcgcc acgcagaacg tctcgattgg tctggaagcc ggctccaagc
+     8161 ctgaactgat ggccgtgctg gccctggcgc ccaaaggcgg caccatcgtc tgcaacggtt
+     8221 acaaggaccg cgagttcatc cggctggcgc tgatgggcca gaagctgggc cacaacgtgt
+     8281 tcatcgtcat cgagaaagaa tccgaagtcg aactggtcat cgaagaagcc gccgagctta
+     8341 aagtcgcccc tcaggttggc ctgcgcgtgc gcctgtcgtc ccttgcgtcg agcaagtggg
+     8401 cagacacggg cggcgagaaa tccaagttcg gtctgtctgc cgcgcaattg ctctcagtgg
+     8461 tcgagcgctt ccgcaaggca ggcctcgatc agggcatccg cctgctgcac tttcacatgg
+     8521 gctcgcagat cgccaacctg gcggactacc agcacggctt caaggaagcg atccgctact
+     8581 acggcgaact gcgcaaactc ggcctgcc
+//
+
