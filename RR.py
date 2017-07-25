@@ -6,55 +6,27 @@ from sys import argv
 import argparse
 import primer3
 
-script, gb, left, right = argv
-left, right = int(left), int(right)
-#parser = argparse.ArgumentParser(description="Placeholder. Program to define primers in bacterial recombination.")
+parser = argparse.ArgumentParser(description="Placeholder. Program to define primers in bacterial recombination.")
+parser.add_argument('-s', '--sequence', required=True, type=open)
+parser.add_argument('-ft', '--filetype', required=True, type=str)
+parser.add_argument('-l', '--leftbound', required=True, type=int)
+parser.add_argument('-r', '--rightbound', required=True, type=int)
+parser.add_argument('-lsize', '--leftflanksize', nargs='?', required = False, type=int, default = 1200)
+parser.add_argument('-rsize', '--rightflanksize', nargs = '?', required = False, type=int, default = 1000)
+parser.add_argument('-o', '--output', nargs= '?', required = False, type = argparse.FileType('w'))
+args = parser.parse_args()
 
 #read in the sequence(s)
-seqrec = SeqIO.read(gb,'genbank')
+seqrec = SeqIO.read(args.sequence,args.filetype)
 seqrec = str(seqrec.seq)
-seqincludedregion = [left,right]
 
-inner = primer3.bindings.designPrimers(
-    {
-        'SEQUENCE_ID': 'MH1000',
-        'SEQUENCE_TEMPLATE': seqrec,
-        'SEQUENCE_INCLUDED_REGION': seqincludedregion
-    },
-    {
-        'PRIMER_OPT_SIZE': 20,
-        'PRIMER_TASK': 'pick_cloning_primers',
-        'PRIMER_PICK_ANYWAY': 1,
-        'PRIMER_INTERNAL_MAX_SELF_END': 8,
-        'PRIMER_MIN_SIZE': 18,
-        'PRIMER_MAX_SIZE': 26,
-        'PRIMER_OPT_TM': 60.0,
-        'PRIMER_MIN_TM': 55.0,
-        'PRIMER_MAX_TM': 65.0,
-        'PRIMER_MIN_GC': 20.0,
-        'PRIMER_MAX_GC': 80.0,
-        'PRIMER_MAX_POLY_X': 100,
-        'PRIMER_INTERNAL_MAX_POLY_X': 100,
-        'PRIMER_SALT_MONOVALENT': 50.0,
-        'PRIMER_DNA_CONC': 50.0,
-        'PRIMER_MAX_NS_ACCEPTED': 5,
-        'PRIMER_MAX_SELF_ANY': 12,
-        'PRIMER_MAX_SELF_END': 8,
-        'PRIMER_PAIR_MAX_COMPL_ANY': 12,
-        'PRIMER_PAIR_MAX_COMPL_END': 8,
-    })
 
-for k in sorted(inner.keys()):
-     print('%s\t%s' % (k,inner[k]))
-
-seqleftflank = [left-1000,left]
-seqrightflank = [right, right + 1000]
-
+#designing primers that bind the left flank
 leftflank = primer3.bindings.designPrimers(
     {
-        'SEQUENCE_ID': 'MH1000',
+        'SEQUENCE_ID': 'Left Flank',
         'SEQUENCE_TEMPLATE': seqrec,
-        'SEQUENCE_INCLUDED_REGION': seqleftflank
+        'SEQUENCE_INCLUDED_REGION': [args.leftbound - args.leftflanksize, args.leftflanksize],
     },
     {
         'PRIMER_OPT_SIZE': 20,
@@ -69,6 +41,7 @@ leftflank = primer3.bindings.designPrimers(
         'PRIMER_MIN_GC': 20.0,
         'PRIMER_MAX_GC': 80.0,
         'PRIMER_MAX_POLY_X': 100,
+        'PRIMER_NUM_RETURN': 1,
         'PRIMER_INTERNAL_MAX_POLY_X': 100,
         'PRIMER_SALT_MONOVALENT': 50.0,
         'PRIMER_DNA_CONC': 50.0,
@@ -78,12 +51,23 @@ leftflank = primer3.bindings.designPrimers(
         'PRIMER_PAIR_MAX_COMPL_ANY': 12,
         'PRIMER_PAIR_MAX_COMPL_END': 8,
     })
+
+if args.output:
+     args.output.write('LEFT PRIMER PAIR\n************************\n\n')
+     for k in sorted(leftflank.keys()):
+          args.output.write('%s\t%s\n' % (k,leftflank[k]))
+     args.output.write('\n\n')
+else:
+     print('LEFT PRIMER PAIR\n************************\n\n')
+     for k in sorted(leftflank.keys()):
+          print('%s\t%s' % (k,leftflank[k]))
+     print('\n\n')
 
 rightflank = primer3.bindings.designPrimers(
     {
-        'SEQUENCE_ID': 'MH1000',
+        'SEQUENCE_ID': 'Right Flank',
         'SEQUENCE_TEMPLATE': seqrec,
-        'SEQUENCE_INCLUDED_REGION': seqleftflank
+        'SEQUENCE_INCLUDED_REGION': [args.rightbound, args.rightflanksize]
     },
     {
         'PRIMER_OPT_SIZE': 20,
@@ -98,6 +82,7 @@ rightflank = primer3.bindings.designPrimers(
         'PRIMER_MIN_GC': 20.0,
         'PRIMER_MAX_GC': 80.0,
         'PRIMER_MAX_POLY_X': 100,
+        'PRIMER_NUM_RETURN': 1,
         'PRIMER_INTERNAL_MAX_POLY_X': 100,
         'PRIMER_SALT_MONOVALENT': 50.0,
         'PRIMER_DNA_CONC': 50.0,
@@ -108,3 +93,13 @@ rightflank = primer3.bindings.designPrimers(
         'PRIMER_PAIR_MAX_COMPL_END': 8,
     })
     
+if args.output:
+     args.output.write('RIGHT PRIMER PAIR\n************************\n\n')
+     for k in sorted(rightflank.keys()):
+          args.output.write('%s\t%s\n' % (k,rightflank[k]))
+     args.output.write('\n\n')
+else:
+     print('RIGHT PRIMER PAIR\n************************\n\n')
+     for k in sorted(rightflank.keys()):
+          print('%s\t%s' % (k,rightflank[k]))
+     print('\n\n')
