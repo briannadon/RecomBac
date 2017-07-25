@@ -7,13 +7,13 @@ import argparse
 import primer3
 
 parser = argparse.ArgumentParser(description="Placeholder. Program to define primers in bacterial recombination.")
-parser.add_argument('-s', '--sequence', required=True, type=open)
-parser.add_argument('-ft', '--filetype', required=True, type=str)
-parser.add_argument('-l', '--leftbound', required=True, type=int)
-parser.add_argument('-r', '--rightbound', required=True, type=int)
-parser.add_argument('-lsize', '--leftflanksize', nargs='?', required = False, type=int, default = 1200)
-parser.add_argument('-rsize', '--rightflanksize', nargs = '?', required = False, type=int, default = 1000)
-parser.add_argument('-o', '--output', nargs= '?', required = False, type = argparse.FileType('w'))
+parser.add_argument('-s', '--sequence', required=True, type=open, help = 'The (currently only genbank supported) sequence to replace.')
+parser.add_argument('-ft', '--filetype', required=True, type=str, help = 'The filetype.  Genbank only supported at the moment.')
+parser.add_argument('-l', '--leftbound', required=True, type=int, help = 'The left coordinate (1-based) of the sequence to be removed or replaced')
+parser.add_argument('-r', '--rightbound', required=True, type=int, help = 'The right coordinate (1-based) of the sequence to be removed or replaced')
+parser.add_argument('-lsize', '--leftflanksize', nargs='?', required = False, type=int, default = 1200, help = 'The size of the left flank. Default 1200.')
+parser.add_argument('-rsize', '--rightflanksize', nargs = '?', required = False, type=int, default = 1000, help = 'The size of the right flank.  Default 1000.')
+parser.add_argument('-o', '--output', nargs= '?', required = False, type = argparse.FileType('w'), help = 'The optional output file.  If excluded, output is to stdout.')
 args = parser.parse_args()
 
 #read in the sequence(s)
